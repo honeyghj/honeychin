@@ -1,0 +1,164 @@
+body {
+    margin: 0%;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    list-style: none;
+    font-family: "Trirong", sans-serif; 
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+/* *{
+    margin: 25;
+    padding: 25;
+    font-family:sans-serif;
+
+}
+.hero{
+    position: relative;
+    width:100%;
+    width:100vh;
+    background; #867b86;
+
+}
+nav{
+    display:flex;
+    width:84%;
+    margin: auto;
+    padding:20px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display:inline;
+    text-align: center;
+    list-style: none;
+    margin-right: 20px;
+}
+nav ul li{
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:blue;
+}
+.detail{
+    margin-left: 8%;
+    margin-top:15%;
+}
+
+.detail h1{
+    font-size: 50px;
+    color:black;
+    margin-bottom:20px;
+}
+span{
+    color:orange;
+}
+.detail p{
+    color:gray;
+    line-height: 22px;
+}
+
+.detail a{
+    background: #000;
+    padding: 10px 18px;
+     text-decoration: none;
+     font-weight: bold;
+     color:blue;
+     display:inline-block;
+     margin: 30px 0;
+     border-radius:5px;
+}
+.image img{
+    width:45%;
+    height:80%;
+    position: absolute;
+    bottom; 0;
+    right:100px;
+}
+.image img{
+    height:100%;
+    position: absolute;
+    left:50%;
+    bottom:0;
+    transform:translate(-50%);
+    transition: bottom 1s,left 1s
+
+}
+.image:hover .shape{
+    bottom:100px;
+}
+.imagr:hover .boy{
+    left:100%;
+
+} */
+
+nav, ul{
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+nav > ul > li {
+    margin: 10px;
+}
+
+nav > img {
+    height: 5vh;
+}
+
+.detail, .mainDiv {
+    width: 40vw;
+    height: 90vh;
+}
+
+div.detail {
+    margin:10vh
+}
+
+span#space {
+    padding: 2.5vh;
+    display: block;
+}
+
+div.image {
+    color: rgb(24, 24, 230);
+    display: flex;
+    align-items: center;
+}
+.image > img {
+    width: 35vw;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px #00000077;
+}
+
+div.mainContainer {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+a#buttonCV {
+    background: green;
+    padding: 10px;
+    border-radius: 50px;
+    color:white;
+    font-weight: 500;
+}
+
+.image {
+    height: 70vh;
+}
